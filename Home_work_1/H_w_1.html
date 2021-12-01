@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Home work 1</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="css/H_w_1.css">
+</head>
+<body>
+    <section id="app">
+        <div v-for="cat in cats">
+            <div class="img">
+                <img v-bind:src="cat.img">
+            </div>
+            <div>
+                <h1>Имя: {{cat.name}}</h1>
+                <h3>Возраст: {{cat.age}}</h3>
+                <p>Расцветка: {{cat.color}}</p>
+                <a href="#">Подробнее</a>
+            </div>
+        </div>
+    </section>
+    <script src="js/H_w_1.js"></script>
+</body>
+</html>

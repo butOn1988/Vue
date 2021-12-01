@@ -1,0 +1,50 @@
+section {
+    display: flex;
+}
+
+div {
+    flex: 1;
+    margin:  0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgb(176, 190, 197);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img {
+    flex: 1;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(198, 40, 40);
+    letter-spacing: 3px;
+}
+
+h3 {
+    color: rgb(26, 35, 126);
+    letter-spacing: 2px;
+}
+
+
+p {
+    color: #10316B;
+}
+
+a {
+    text-decoration: none;
+    width: 90%;
+    display: block;
+    border: 1px solid rgb(38, 50, 56);
+    margin-top: 2rem;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(40, 53, 147);
+    background-color: rgb(24, 255, 255);
+}
